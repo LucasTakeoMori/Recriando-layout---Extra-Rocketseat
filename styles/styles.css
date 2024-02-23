@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root{
+    --collor-one: #3F3D56;
+    --collor-two: #EE24FF;
+    --collor-three: #828282;
+
+    --background-collor: #ECEFF2;
+}
+
+ main {
+    text-align: center;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+ } 
+
+ main img {
+    margin-top: 64px;
+    margin-bottom: 32px;
+ }
+
+ .tittle {
+    font-family: "Dosis", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    
+    font-size: 2rem;
+ }
+
+.tittle h2{
+    color: var(--collor-one);
+}
+
+.tittle span{
+    color: var(--collor-two);
+}
+
+.context {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    
+    max-width: 540px;
+
+    margin: auto;
+}
+
+.context p {
+    margin-top: 20px;
+    
+    color: var(--collor-three);
+}
+.context span {
+    color: var(--collor-one);
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 64px;
+    text-align: center;
+}
+
+footer li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+
+    margin-top: 80px;
+}
+
+footer a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    
+    color: var(--collor-one);
+}
+
+footer a :hover{
+    color: var(--collor-three);
+}
+
+footer img {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
